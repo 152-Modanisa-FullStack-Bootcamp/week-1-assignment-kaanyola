@@ -1,12 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <title>My First Parcel App</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkedin Post</title>
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="app.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div id="app">
+      <div class="linkedin-post">
+        <div class="poster">
+          <div class="logo">
+            <img src="./src/google-logo.jpg" alt="" />
+          </div>
+          <div class="informations">
+            <p class="name">Google</p>
+            <p>23,251,608 followers</p>
+            <p>
+              23h Edited <span class="material-icons-outlined"> language </span>
+            </p>
+          </div>
+          <div class="more-icon">
+            <span class="material-icons"> more_horiz </span>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="contents-text">
+            <p>
+              Thanks to so much to everyone who attended The Vision Summit: An
+              Experience for Women of Color earlier this month. #ICYMI check out
+              the recorded sessions at https://lnkd.in/gxuv2XG ...see more
+            </p>
+          </div>
+          <div class="link">
+            <div class="link-image">
+              <img src="./src/google-photo.jpg" alt="" />
+            </div>
+            <div class="link-footer">
+              <div class="link-title">
+                <p>The Vision Summit 2021: an experience for Women of Color</p>
+              </div>
+              <div class="link-address">
+                <p>careersonair.withgoogle.com 1 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="likes-comments">
+          <span class="material-icons"> thumb_up </span>
+          <span class="material-icons"> favorite </span>
+          <span class="material-icons"> volunteer_activism </span>
+          <p>744</p>
+          <div class="comments">
+            <p>17 comments</p>
+          </div>
+        </div>
+        <div class="interactions">
+          <div class="interaction-button">
+            <span class="material-icons-outlined"> thumb_up </span>
+            <p>Like</p>
+          </div>
+          <div class="interaction-button">
+            <span class="material-icons-outlined"> comment </span>
+            <p>Comment</p>
+          </div>
+          <div class="interaction-button">
+            <span class="material-icons-outlined"> share </span>
+            <p>Share</p>
+          </div>
+          <div class="interaction-button">
+            <span class="material-icons-outlined"> send </span>
+            <p>Send</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

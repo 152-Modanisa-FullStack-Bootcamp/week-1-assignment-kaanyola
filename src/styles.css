@@ -1,4 +1,133 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
-}
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  #app {
+    background:  white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .linkedin-post {
+    background-color: white;
+    width: 664px;
+    height: 688px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: grey solid 1px;
+  }
+
+  .poster{
+    padding: 22px 22px 0 22px;
+    display: flex;
+    display: flex;
+    position: relative;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .informations {
+    margin-left: 20px;
+  }
+
+  .informations p{
+    font-size: 17px;
+    margin: 0;
+  }
+  
+  .informations p span{
+    font-size: 15px;
+  }
+
+  .informations .name {
+    font-weight: bold;
+  }
+
+  .more-icon{
+    position: absolute;
+    top: 22px;
+    right: 22px;
+  }
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contents .contents-text{
+    display: flex;
+    padding-left: 22px;
+  }
+
+  .contents .link {
+    display: flex;
+    flex-direction: column;
+    background: rgb(241, 237, 237);
+  }
+
+  .link-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .link .link-footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+  }
+
+  .link .link-footer p{
+    margin: 6px 0px;
+  }
+
+  .link-title p {
+    font-weight: bold;
+  }
+
+  .link-address p{
+    font-size: 14px;
+  }
+
+  .likes-comments{
+    display: flex;
+    padding: 6px 22px;
+    position: relative;
+  }
+
+  .likes-comments p{
+    font-size: 14px;
+    margin: 4px 0 0 0;
+  }
+
+  .comments{
+    position: absolute;
+    top: 6px;
+    right: 22px;
+  }
+  .comments p {
+    font-size: 14px;
+  }
+
+  .interactions{
+    display: flex;
+    margin: 0 22px;
+    border-top: 2px solid grey;
+    justify-content: space-around;
+  }
+
+  .interaction-button{
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+
+  .interaction-button p{
+    margin: 6px;
+  }

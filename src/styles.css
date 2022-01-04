@@ -1,4 +1,22 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
-}
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  #app {
+    display: flex;
+  }
+  
+  .product-card {
+    margin: 20px;
+    border: grey 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-card p {
+    font-weight: bold;
+  }
+  
